@@ -1,0 +1,25 @@
+/* my first web page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+img{
+    border: 10px solid green;
+}
+h1{
+    border: 5px dotted red;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+}
+cite{
+    font-size: 1.5rem ;
+    font-weight: bold;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
