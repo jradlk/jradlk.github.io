@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .navbar{
+      display: flex;
+      border: 2px solid orangered;
+      width: 100%;
+      margin-bottom: 2rem;
+  }
+  .namesite{
+    text-align: justify;
+    margin: auto;
+    min-width: min-content;
+    flex: 10%
+  }
+
+  .buttonav{
+    flex: 90%;
+    text-align: center;
+    display: flex;
+  }
+  nav li{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  article{
+    margin-bottom: 2rem;
+    border: 2px solid green
+  }
